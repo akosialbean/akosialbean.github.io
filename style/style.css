@@ -1,6 +1,7 @@
 body{
     background-image: url('../img/bg.jpg');
     background-attachment: fixed;
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,3 +22,47 @@ body{
 .c-row{
     height: 100vh;
 }
+
+
+.custom-animation-text {
+    transform: translate(-50%, -50%);
+    color: #000;
+    animation: customAnimation 2s ease-in-out infinite;
+}
+  
+  @keyframes customAnimation {
+    0% {
+        color:#191970;
+    }
+    10%{
+        color: #483D8B;
+    }
+    20%{
+        color: #556B2F;
+    }
+    30%{
+        color: #8B4513;
+    }
+    40%{
+        color: #9932CC;
+    }
+    50% {
+      color: #8B0000;
+    }
+    60% {
+      color: #800000;
+    }
+    70% {
+      color: #2F4F4F;
+    }
+    80% {
+      color: #6A5ACD;
+    }
+    90% {
+      color: #4B0082;
+    }
+    100% {
+      color: #2E8B57;
+    }
+  }
+  

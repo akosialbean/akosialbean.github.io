@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark text-light fixed-top c-nav-bg c-nav-bg">
         <div class="container">
-            <a class="navbar-brand text-secondary">
+            <a href="#top" class="navbar-brand text-secondary">
                 <strong>Alvin Castor</strong>
             </a>
             <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -39,32 +39,41 @@
     </nav>
 
     <div class="container mt-5 pt-5">
-        <div class="row c-row">
+        <div class="row c-row" id="top">
             <div class="col-12">
                 <section class="hero d-flex align-items-center text-center">
                     <div class="container">
-                        <img src="./img/hero.jpg" alt="Alvin Castor" class="img-fluid rounded rounded-circle">
-                        <h1 class="display-4">Welcome to My Portfolio</h1>
-                        <p class="lead">I am a web developer specializing in creating functional web-based applications.</p>
-                        <a href="#portfolio" class="btn btn-primary btn-lg">View My Work</a>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5 col-lg-4 p-5">
+                                <img src="./img/hero.jpg" alt="Alvin Castor" class="img-fluid rounded rounded-circle border border-5 border-secondary shadow-lg">
+                            </div>
+                            <div class="col-sm-12 col-md-7 col-lg-8 p-3">
+                                <div class="animation-box">
+                                    <div class="custom-animation"></div>
+                                </div>
+                                <h1 class="display-4">Hi, my name is <strong class="custom-animation-text">Alvin</strong></h1>
+                                <p class="lead">I am a web developer specializing in creating functional web-based applications.</p>
+                                <a href="#portfolio" class="btn btn-primary btn-secondary">View My Work</a>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>
         </div>
 
-        <div class="row bg-success c-row">
+        <div class="row bg-success c-row" id="about">
             <div class="col-12">
                 <h1>About</h1>
             </div>
         </div>
 
-        <div class="row bg-warning c-row">
+        <div class="row bg-warning c-row" id="projects">
             <div class="col-12">
                 <h1>Projects</h1>
             </div>
         </div>
 
-        <div class="row bg-danger c-row">
+        <div class="row bg-danger c-row" id="contact">
             <div class="col-12">
                 <h1>Contact</h1>
             </div>
