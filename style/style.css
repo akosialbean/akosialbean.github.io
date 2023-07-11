@@ -78,23 +78,23 @@ body{
   
 
 .nav-animation:hover{
-    animation: shake 0.3s ease-in-out infinite;
+    animation: shake 0.3s ease-in-out;
 }
 @keyframes shake{
     0%{
-        transform: rotate(30deg);
+        transform: rotate(27deg);
     }
     25%{
-        transform: rotate(-30deg);
+        transform: rotate(-27deg);
     }
     50% {
-        transform: rotate(30deg);
+        transform: rotate(27deg);
     }
     75%{
-        transform: rotate(-30deg);
+        transform: rotate(-27deg);
     }
     100% {
-        transform: rotate(30deg);
+        transform: rotate(27deg);
     }
 }
 
