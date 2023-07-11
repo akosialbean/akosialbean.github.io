@@ -82,19 +82,19 @@ body{
 }
 @keyframes shake{
     0%{
-        transform: rotate(27deg);
+        transform: rotate(18deg);
     }
     25%{
-        transform: rotate(-27deg);
+        transform: rotate(-18deg);
     }
     50% {
-        transform: rotate(27deg);
+        transform: rotate(18deg);
     }
     75%{
-        transform: rotate(-27deg);
+        transform: rotate(-18deg);
     }
     100% {
-        transform: rotate(27deg);
+        transform: rotate(18deg);
     }
 }
 
