@@ -33,6 +33,10 @@ body{
     height: 100vh;
 }
 
+.c-row50{
+    height: 50vh;
+}
+
 
 .custom-animation-text {
     transform: translate(-50%, -50%);
@@ -121,6 +125,7 @@ body{
 }
 
 .siteName{
+    font-family: 'Bungee', cursive;
     animation: magnify 3s ease-in-out infinite;
 }
 @keyframes magnify{
