@@ -1,0 +1,32 @@
+{
+  "name": "akosialbean.github.io",
+  "version": "1.0.0",
+  "description": "Online Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akosialbean/akosialbean.github.io.git"
+  },
+  "keywords": [
+    "Web",
+    "Portfolio",
+    "Online",
+    "Portfolio",
+    "Web",
+    "Developer",
+    "Portfolio"
+  ],
+  "author": "Alvin Castor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akosialbean/akosialbean.github.io/issues"
+  },
+  "homepage": "https://github.com/akosialbean/akosialbean.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5"
+  }
+}

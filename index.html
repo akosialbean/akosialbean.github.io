@@ -3,9 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Alvin Castor">
+    <title>Alvin Castor - Full Stack Web Developer</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js" defer></script>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark text-light fixed-top c-nav-bg c-nav-bg">
+        <div class="container">
+            <a class="navbar-brand text-secondary">
+                <strong>Alvin Castor</strong>
+            </a>
+            <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <i class="bi bi-grid-fill text-secondary"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav border border-0 ">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link text-secondary">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link text-secondary">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link text-secondary">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pt-5">
+        <div class="row c-row">
+            <div class="col-12">
+                <section class="hero d-flex align-items-center text-center">
+                    <div class="container">
+                        <img src="./img/hero.jpg" alt="Alvin Castor" class="img-fluid rounded rounded-circle">
+                        <h1 class="display-4">Welcome to My Portfolio</h1>
+                        <p class="lead">I am a web developer specializing in creating functional web-based applications.</p>
+                        <a href="#portfolio" class="btn btn-primary btn-lg">View My Work</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="row bg-success c-row">
+            <div class="col-12">
+                <h1>About</h1>
+            </div>
+        </div>
+
+        <div class="row bg-warning c-row">
+            <div class="col-12">
+                <h1>Projects</h1>
+            </div>
+        </div>
+
+        <div class="row bg-danger c-row">
+            <div class="col-12">
+                <h1>Contact</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row bg-secondary">
+            <div class="col-12">
+                <h1>Footer</h1>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
