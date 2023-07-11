@@ -39,42 +39,41 @@ body{
     color: #000;
     animation: customAnimation 2s ease-in-out infinite;
 }
-  
-  @keyframes customAnimation {
-    0% {
-        color:#191970;
-    }
-    10%{
-        color: #483D8B;
-    }
-    20%{
-        color: #556B2F;
-    }
-    30%{
-        color: #8B4513;
-    }
-    40%{
-        color: #9932CC;
-    }
-    50% {
-      color: #8B0000;
-    }
-    60% {
-      color: #800000;
-    }
-    70% {
-      color: #2F4F4F;
-    }
-    80% {
-      color: #6A5ACD;
-    }
-    90% {
-      color: #4B0082;
-    }
-    100% {
-      color: #2E8B57;
-    }
-  }
+@keyframes customAnimation {
+0% {
+    color:#191970;
+}
+10%{
+    color: #483D8B;
+}
+20%{
+    color: #556B2F;
+}
+30%{
+    color: #8B4513;
+}
+40%{
+    color: #9932CC;
+}
+50% {
+    color: #8B0000;
+}
+60% {
+    color: #800000;
+}
+70% {
+    color: #2F4F4F;
+}
+80% {
+    color: #6A5ACD;
+}
+90% {
+    color: #4B0082;
+}
+100% {
+    color: #2E8B57;
+}
+}
   
 
 .nav-animation:hover{
@@ -82,24 +81,24 @@ body{
 }
 @keyframes shake{
     0%{
-        transform: rotate(18deg);
+        transform: rotate(9deg);
     }
     25%{
-        transform: rotate(-18deg);
+        transform: rotate(-9deg);
     }
     50% {
-        transform: rotate(18deg);
+        transform: rotate(9deg);
     }
     75%{
-        transform: rotate(-18deg);
+        transform: rotate(-9deg);
     }
     100% {
-        transform: rotate(18deg);
+        transform: rotate(9deg);
     }
 }
 
 .siteName{
-    animation: magnify 1s ease-in-out infinite;
+    animation: magnify 3s ease-in-out infinite;
 }
 @keyframes magnify{
     0%{
