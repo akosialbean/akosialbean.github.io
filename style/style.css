@@ -97,6 +97,29 @@ body{
     }
 }
 
+@media screen and (width < 575px){
+    .nav-animation:hover{
+        animation: shake 0.3s ease-in-out;
+    }
+    @keyframes shake{
+        0%{
+            transform: translate(9px);
+        }
+        25%{
+            transform: translate(0px);
+        }
+        50% {
+            transform: translate(9px);
+        }
+        75%{
+            transform: translate(0px);
+        }
+        100% {
+            transform: translate(9px);
+        }
+    }
+}
+
 .siteName{
     animation: magnify 3s ease-in-out infinite;
 }
