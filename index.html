@@ -40,7 +40,7 @@
         </div>
     </nav>
 
-    <div class="container mt-5 pt-5" id="container">
+    <div class="container mt-5" id="container">
         <div class="row mt-5 c-row" id="top">
             <div class="col-12">
                 <section class="hero d-flex align-items-center text-center">
@@ -63,100 +63,241 @@
             </div>
         </div>
 
-        <div class="row mt-3" id="certificates">
+        <div class="row mt-3 mb-3 mt-5" id="certificates">
             <div class="col-12">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="https://www.sololearn.com/certificates/CC-VAABIDLG">
-                                        <img src="./img/certHTML.png" alt="HTML Certification" class="img-rounded border border-3 img-fluid shadow-lg">
-                                    </a>
-                                </div>
-                                <div class="card-footer">
-                                    <p><strong>Introduction to HTML</strong></p>
-                                    <p><strong>Certificate ID:</strong> <em>CC-VAABIDLG</em></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="https://www.sololearn.com/certificates/CC-BIVCJYM5">
-                                        <img src="./img/certCSS.png" alt="CSS Certification" class="img-rounded img-fluid border border-3 shadow-lg">
-                                    </a>
-                                </div>
-                                <div class="card-footer">
-                                    <p><strong>Introduction to CSS</strong></p>
-                                    <p><strong>Certificate ID:</strong> <em>CC-BIVCJYM5</em></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="https://www.sololearn.com/certificates/CC-TJHRZL0V">
-                                        <img src="./img/certJS.png" alt="JavaScript Certification" class="img-rounded img-fluid border border-3 shadow-lg">
-                                    </a>
-                                </div>
-                                <div class="card-footer">
-                                    <p><strong>Introduction to JavaScript</strong></p>
-                                    <p><strong>Certificate ID:</strong> <em>CC-TJHRZL0V</em></p>
+                <div class="accordion shadow-lg" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#aboutMe" aria-expanded="true" aria-controls="aboutMe">
+                                <strong>About</strong>
+                            </button>
+                        </h2>
+                        <div id="aboutMe" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col sm-12 col-md-3 col-lg-3">
+                                        <img src="./img/code.jpg" class="rounded img-fluid" alt="code">
+                                    </div>
+                                    <div class="col sm-12 col-md-3 col-lg-9">
+                                        <p>
+                                            I’m a full stack web developer from the Philippines. I learned web development through formal education and research. I am also a knowledgeable in other branches of IT like networking and infrastructure and troubleshooting both software and hardware, server and software administration.
+                                        </p>    
+                                        <p>
+                                            On my journey journey through the IT field, I have worked for a few companies where I gained more knowledge in almost any branch. My whole work journey revolves around web application development and infrastructure management. My main focus is to create and develop a software that will make users more efficient in their tasks.
+                                        </p>
+                                        <p>
+                                            Now, I am focusing on my web development skills to enhance it even further.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="https://www.sololearn.com/certificates/CC-6WIKVCNH">
-                                        <img src="./img/certJSIntermediate.png" alt="JavaScript Intermediate Certification" class="img-rounded img-fluid border border-3 shadow-lg">
-                                    </a>
-                                </div>
-                                <div class="card-footer">
-                                    <p><strong>Javascript Intermediate</strong></p>
-                                    <p><strong>Certificate ID:</strong> <em>CC-6WIKVCNH</em></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="https://www.sololearn.com/certificates/CC-XHUCETB7">
-                                        <img src="./img/certWebDev.png" alt="Web Development Certification" class="img-rounded img-fluid border border-3 shadow-lg">
-                                    </a>
-                                </div>
-                                <div class="card-footer">
-                                    <p><strong>Web Development</strong></p>
-                                    <p><strong>Certificate ID:</strong> <em>CC-XHUCETB7</em></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <a href="https://www.sololearn.com/certificates/CC-A6XNQ9UE">
-                                        <img src="./img/certSQL.png" alt="Web Development Certification" class="img-rounded img-fluid border border-3 shadow-lg">
-                                    </a>
-                                </div>
-                                <div class="card-footer">
-                                    <p><strong>Introduction to SQL</strong></p>
-                                    <p><strong>Certificate ID:</strong> <em>CC-A6XNQ9UE</em></p>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#certifications" aria-expanded="true" aria-controls="certifications">
+                                <strong>Certifications</strong>
+                            </button>
+                        </h2>
+                        <div id="certifications" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a href="https://www.sololearn.com/certificates/CC-VAABIDLG">
+                                                        <img src="./img/certHTML.png" alt="HTML Certification" class="img-rounded border border-3 img-fluid shadow-lg">
+                                                    </a>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <p><strong>Introduction to HTML</strong></p>
+                                                    <p><strong>Certificate ID:</strong> <em>CC-VAABIDLG</em></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a href="https://www.sololearn.com/certificates/CC-BIVCJYM5">
+                                                        <img src="./img/certCSS.png" alt="CSS Certification" class="img-rounded img-fluid border border-3 shadow-lg">
+                                                    </a>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <p><strong>Introduction to CSS</strong></p>
+                                                    <p><strong>Certificate ID:</strong> <em>CC-BIVCJYM5</em></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a href="https://www.sololearn.com/certificates/CC-TJHRZL0V">
+                                                        <img src="./img/certJS.png" alt="JavaScript Certification" class="img-rounded img-fluid border border-3 shadow-lg">
+                                                    </a>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <p><strong>Introduction to JavaScript</strong></p>
+                                                    <p><strong>Certificate ID:</strong> <em>CC-TJHRZL0V</em></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a href="https://www.sololearn.com/certificates/CC-6WIKVCNH">
+                                                        <img src="./img/certJSIntermediate.png" alt="JavaScript Intermediate Certification" class="img-rounded img-fluid border border-3 shadow-lg">
+                                                    </a>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <p><strong>Javascript Intermediate</strong></p>
+                                                    <p><strong>Certificate ID:</strong> <em>CC-6WIKVCNH</em></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a href="https://www.sololearn.com/certificates/CC-XHUCETB7">
+                                                        <img src="./img/certWebDev.png" alt="Web Development Certification" class="img-rounded img-fluid border border-3 shadow-lg">
+                                                    </a>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <p><strong>Web Development</strong></p>
+                                                    <p><strong>Certificate ID:</strong> <em>CC-XHUCETB7</em></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <a href="https://www.sololearn.com/certificates/CC-A6XNQ9UE">
+                                                        <img src="./img/certSQL.png" alt="Web Development Certification" class="img-rounded img-fluid border border-3 shadow-lg">
+                                                    </a>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <p><strong>Introduction to SQL</strong></p>
+                                                    <p><strong>Certificate ID:</strong> <em>CC-A6XNQ9UE</em></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+                
             </div>
         </div>
 
-        <div class="row bg-warning c-row" id="projects">
+        <div class="row mt-5" id="projects">
             <div class="col-12">
-                <h1>Projects</h1>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
 
-        <div class="row bg-danger c-row" id="contact">
+        <div class="row mt-5" id="contact">
             <div class="col-12">
                 <h1>Contact</h1>
             </div>
