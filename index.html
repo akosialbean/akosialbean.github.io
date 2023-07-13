@@ -78,7 +78,7 @@
                                     <div class="col sm-12 col-md-3 col-lg-3">
                                         <img src="./img/code.jpg" class="rounded img-fluid" alt="code">
                                     </div>
-                                    <div class="col sm-12 col-md-3 col-lg-9">
+                                    <div class="col sm-12 col-md-9 col-lg-9">
                                         <p>
                                             I’m a full stack web developer from the Philippines. I learned web development through formal education and research. I am also a knowledgeable in other branches of IT like networking and infrastructure and troubleshooting both software and hardware, server and software administration.
                                         </p>    
@@ -196,7 +196,7 @@
         <div class="row mt-5" id="projects">
             <div class="col-12">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
                         <div class="card shadow-lg">
                             <div class="card-body">
                                 <img src="" alt="" class="img-fluid rounded">
@@ -206,7 +206,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
                         <div class="card shadow-lg">
                             <div class="card-body">
                                 <img src="" alt="" class="img-fluid rounded">
@@ -216,40 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                        <div class="card shadow-lg">
-                            <div class="card-body">
-                                <img src="" alt="" class="img-fluid rounded">
-                            </div>
-                            <div class="card-footer">
-                                <p>description</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                        <div class="card shadow-lg">
-                            <div class="card-body">
-                                <img src="" alt="" class="img-fluid rounded">
-                            </div>
-                            <div class="card-footer">
-                                <p>description</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                        <div class="card shadow-lg">
-                            <div class="card-body">
-                                <img src="" alt="" class="img-fluid rounded">
-                            </div>
-                            <div class="card-footer">
-                                <p>description</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
                         <div class="card shadow-lg">
                             <div class="card-body">
                                 <img src="" alt="" class="img-fluid rounded">
@@ -262,7 +229,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
                         <div class="card shadow-lg">
                             <div class="card-body">
                                 <img src="" alt="" class="img-fluid rounded">
@@ -272,7 +239,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
                         <div class="card shadow-lg">
                             <div class="card-body">
                                 <img src="" alt="" class="img-fluid rounded">
@@ -282,7 +249,40 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card shadow-lg">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card shadow-lg">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card shadow-lg">
+                            <div class="card-body">
+                                <img src="" alt="" class="img-fluid rounded">
+                            </div>
+                            <div class="card-footer">
+                                <p>description</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
                         <div class="card shadow-lg">
                             <div class="card-body">
                                 <img src="" alt="" class="img-fluid rounded">
@@ -302,26 +302,49 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="card shadow-lg">
-                            <div class="card-body">
-                                <h1>GITHUB</h1>
+                            <div class="card-body p-3">
+                                <h1 class="text-center p-3 mt-5 mb-5">
+                                    <i class="bi bi-github p-5 bg-secondary text-light rounded rounded-circle"></i>
+                                </h1>
+                                <h1 class="text-center mt-5">GITHUB</h1>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" value="https://github.com/akosialbean" id="gitHubLink" disabled>
+                                    <button class="btn btn-secondary" onclick="copyTextGitHub()">copy</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="card shadow-lg">
                             <div class="card-body">
-                                <h1>FACEBOOK</h1>
+                                <h1 class="text-center p-3 mt-5 mb-5">
+                                    <i class="bi bi-facebook p-5 bg-secondary text-light rounded rounded-circle"></i>
+                                </h1>
+                                <h1 class="text-center mt-5">FACEBOOK</h1>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" value="https:///www.facebook.com/akosialbean" id="fbLink" disabled>
+                                    <button class="btn btn-secondary" type="submit" onclick="copyTextFb()">copy</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="card shadow-lg">
-                            <div class="card-body"><h1>EMAIL</h1></div>
+                            <div class="card-body bg-none">
+                                <h1 class="text-center p-3 mt-5 mb-5">
+                                    <i class="bi bi-envelope-fill p-5 bg-secondary text-light rounded rounded-circle"></i>
+                                </h1>
+                                <h1 class="text-center mt-5">EMAIL</h1>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" value="alvincastor@outlook.com" id="emailLink" disabled>
+                                    <button class="btn btn-secondary" type="submit" onclick="copyEmailLink()">copy</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row mt-5">
+                <!-- <div class="row mt-5">
                     <div class="col-sm-12 col-md-8 col-lg-8">
                         <div class="card">
                             <div class="card-body shadow-lg">
@@ -335,7 +358,7 @@
                         <input type="tel" class="form-control m-3 shadow-lg" placeholder="+63">
                         <input type="submit" value="Submit" class="form-control btn btn-sm btn-secondary text-light m-3 shadow-lg">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -346,5 +369,6 @@
             </div>
         </div>
     </div>
+    <script src="./js/script.js" defer></script>
 </body>
 </html>
