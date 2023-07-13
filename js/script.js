@@ -33,3 +33,18 @@ function copyEmailLink(){
             alert("Unable to copy link")
         })
 }
+
+// function sampleRows(){
+//     let rows = ""
+//     for(let i = 0; i <= 5; i++){
+//         rows += `<tr>
+//                     <td>${i}.cell1</td>
+//                     <td>${i}.cell2</td>
+//                     <td>${i}.cell3</td>
+//                 </tr>`
+//     }
+//     return rows
+// }
+
+// let sampleTable = document.querySelector(".table")
+// sampleTable.innerHTML += sampleRows()
