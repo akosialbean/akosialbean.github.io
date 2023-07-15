@@ -25,6 +25,11 @@ body{
     font-size: 3rem;
 }
 
+.c-font2{
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+}
+
 .c-font-name{
     font-family: 'Bungee', cursive;
 }
